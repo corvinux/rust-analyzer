@@ -3,6 +3,8 @@ use std::sync::Arc;
 
 use rustc_hash::FxHashMap;
 
+use ra_syntax::SmolStr;
+
 use crate::{
     ModuleDef,
     code_model_api::Crate,
